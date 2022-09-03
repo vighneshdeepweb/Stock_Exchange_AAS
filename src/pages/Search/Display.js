@@ -41,7 +41,7 @@ export default class Display extends React.Component{
     }
 
     fetchStocks(){  
-        Axios.get('https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=NSE:'+global.stockKey+'&interval=5min&apikey=50PKJWDFRFMOWAOQ').then(res => {
+        Axios.get('https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=NSE:'+global.stockKey+'&interval=5min&apikey=0QKYLODQWGSMZ0FV').then(res => {
             console.log(res.data)
             const time = Object.keys(res.data["Time Series (5min)"])
             this.storeData(res.data, time)

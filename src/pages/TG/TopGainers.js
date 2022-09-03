@@ -81,7 +81,7 @@ export default class TopGainers extends Component {
   }
 
   fetchStocks() {
-    Axios.get('https://www.nseindia.com/live_market/dynaContent/live_analysis/gainers/niftyGainers1.json').then(res => {
+    Axios.get('https://www1.nseindia.com/live_market/dynaContent/live_analysis/gainers/niftyGainers1.json').then(res => {
       this.count = Object.keys(res.data.data).length
       this.data = this.dumpComma(res.data);
       this.fcolor(this.data);

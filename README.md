@@ -1,13 +1,14 @@
-# StockEx
+# AAS Stock_Exchange_Dashboard
 A Stock Exchange app with an extra module for Currency Conversion built entirely on ReactJS
 
 Credits to https://github.com/flatlogic/react-material-admin for the initial UI template.
 
 # How-to-use
 ```
-git clone https://github.com/AmulyaX/StockEx.git -b master StockEx
+git clone https://github.com/vighneshdeepweb/Stock_Exchange_AAS -b master 
+Stock_Exchange_AAS
 
-cd StockEx
+cd Stock_Exchange_AAS
 
 npm install
 

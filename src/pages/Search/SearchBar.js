@@ -31,7 +31,7 @@ export default class SearchBar extends React.Component {
             <div>
                 <Grid container spacing={16} justify="center" alignItems="center">
                     <ReactSearchBox
-                        placeholder="Search for a company"
+                        placeholder="Search for Company/Stock"
                         data={this.state.data}
                         onSelect={record => this.fetchData(record)}
                         onFocus={() => {

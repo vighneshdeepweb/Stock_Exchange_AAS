@@ -14,7 +14,7 @@ export default class Search extends Component{
     }
 
     async componentWillMount(){
-        await Axios.get('http://www.nseindia.com/content/equities/EQUITY_L.csv').then(res => {
+        await Axios.get('https://www1.nseindia.com/content/equities/EQUITY_L.csv').then(res => {
             var data = res.data.split("\n").map(function(row){return row.split(",");})
             console.log(data)
             this.count = Object.keys(data).length

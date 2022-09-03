@@ -40,7 +40,7 @@ const Header = ({ classes, isSidebarOpened, toggleSidebar, ...props }) => (
           />
         )}
       </IconButton>
-      <Typography variant="h6" weight="medium" className={classes.logotype}>Stock Exchange Dashboard</Typography>
+      <Typography variant="h6" weight="medium" className={classes.logotype}>AAS Stock Exchange Dashboard</Typography>
       <div className={classes.grow} />
     </Toolbar>
   </AppBar>
